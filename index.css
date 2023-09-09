@@ -1,5 +1,5 @@
 body{
-    margin: auto;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
      /*background-color:#ff69b4;*/
     /* background-color: #ba55d3;*/
@@ -51,7 +51,7 @@ body{
       text-decoration: none;
       text-transform: uppercase;
       font-size: 13px;
-       border: wheat solid;
+       border-bottom: 5px wheat solid;
       border-radius: 10px;
       color: white;
       letter-spacing: 0.5px;
@@ -60,5 +60,28 @@ body{
 .menuprincipal nav a:hover{
     background-color: wheat;
     color: #ef196b;
-    border: #ffb6c1 solid;
+    border-bottom: #ffb6c1 solid;
+
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+article{
+    background-color: #e66b9b;
+    margin-bottom: 32px;
+    padding: 16px;
+    margin-top: 32px;
+    border-radius: 20px;
+}
+article h2{
+    background-color: wheat;
+    border-bottom: #ffb6c1 solid 6px;
+    padding: 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 20%;
+}
+article p{
+    color:  white;
 }
