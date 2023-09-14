@@ -85,3 +85,16 @@ article h2{
 article p{
     color:  white;
 }
+
+.btn{
+    background-color: #ffb6c1;
+    color: white;
+    border-bottom: 5px wheat solid;
+    display: block;
+    padding: 13px;
+    width: fit-content; /*ajusta o conteudo ao contener*/
+    margin-left: auto;
+     border-radius: 7px;
+    margin-bottom: 10px solid wheat;
+    text-decoration: none;
+}
