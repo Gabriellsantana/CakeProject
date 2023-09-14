@@ -92,7 +92,7 @@ article p{
     border-bottom: 5px wheat solid;
     display: block;
     padding: 13px;
-    width: fit-content; /*ajusta o conteudo ao contener*/
+    width: fit-content; /*ajusta o conteudo ao contener então o contener sempre vai fica do tmanho do conteudo*/
     margin-left: auto;
      border-radius: 7px;
     margin-bottom: 10px solid wheat;
