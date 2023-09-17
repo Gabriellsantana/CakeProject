@@ -69,6 +69,11 @@ main{
     width: 90%;
     margin: auto;
 }
+.divconteudo{
+      background-color: white;
+      padding: 80px;
+      margin: 50px;
+}
 article{
     background-color: #e66b9b;
     margin-bottom: 32px;
@@ -79,6 +84,7 @@ article{
      text-align: center;
     display: inline-table;
     margin-left: 10px;
+
    
 }
 article h2{
@@ -91,6 +97,13 @@ article h2{
 }
 article p{
     color:  white;
+}
+img{
+    width: 95%;
+    padding: 15px;
+    height:200px;
+    border-radius: 900px;
+
 }
 
 .btn{
@@ -106,18 +119,11 @@ article p{
     text-decoration: none;
     width: 95%; 
 }
+
+
 footer{
   
     padding: 80px;
     text-align: center;
     background-color: #ef196bd6;
-    border-top: 10px solid wheat;
-}
-img{
-    width: 95%;
-    padding: 15px;
-    height: 80px;
-   
-  
-
 }
