@@ -3,14 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedidos</title>
+    <title>Tabelas</title>
 </head>
-<style>
-    body{
-        background-color: #e66b9b ;
-    }
-</style>
+   <style>
+       body{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+       }
+       img{
+        width: 50%;
+       }
+       caption{
+          padding: 2rem;
+          font-size: 2.5rem;
+          
+       }
+        table{
+            width: 80%;
+            margin: auto;
+            border-collapse:collapse;
+            
+        }
+        th{
+            font-size: 1.5rem;
+             background-color: wheat;
+            border: 2px solid rgb(77, 65, 44);
+            padding:15px;
+            border: white;
+            border-bottom: 10px solid white ;
+            color: #ef196b;
+            letter-spacing: 1.5px;
+        
+        }
+        td{
+            text-align: center;
+            padding: 10px;
+            background-color:  wheat;
+            margin: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1.5px;
+            font-size: 1.3rem;
+            
+        
+            
+        }
+          #butao{
+             display: flex;
+             justify-content: center;
+             padding: 2.5rem;
+          }
+          button{
+            font-size: 3rem;
+            border-radius: 0.5rem;
+            border: none;
+            background-color: wheat;
+          
+           text-decoration: none;
+           text-transform: uppercase;
+           border-bottom: #ffb6c1 solid;
+           border-radius: 10px;
+           color: #ef196b;
+           letter-spacing: 0.6px;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           cursor: pointer;
+          }
+          
+   </style>
 <body>
-           <h1>Pedidos</h1>
+    <div class="logo"><img src="imagens/LOGOTIPO-BOLOS-CASEIROS-1024x422.png" alt=""></div>
+       <table>
+          <caption>Tabela Preços</caption>
+          <thead> 
+            <tr>
+                <th>Área</th> 
+                <th>Serve </th>
+                <th>Investimento </th>
+             </tr>
+          </thead>
+
+          <tbody>
+          </tbody> 
+                   <tr>
+                      <td rowspan="3">Bolos Aniversario</td> 
+                      <td style="color: green;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">10 Pessoas</td>
+                      <td>10.000.00$</td>
+                   </tr>
+                   <tr>
+                      <td style="color: green;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">20 Pessoas</td>
+                      <td>40.000.00$</td>
+                   </tr>
+                   <tr>
+                      <td style="color: green;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">25 Pessoas</td>
+                      <td>5.000$</td>
+                   </tr>
+                
+                   <tr>
+                      <td rowspan="4">Bolos Casamento</td>
+                      <td style="color: green;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">35 Pessoas</td>
+                      <td>1.000$</td>
+                   </tr>
+                   <tr>
+                    
+                    <td style="color: green;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">45 Pessoas</td>
+                    <td>1.000$</td>
+                 </tr>
+                 <tr>
+                    <td style="color: green;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">55 Pessoas</td>
+                    <td>1.000$</td>
+                 </tr>
+                    
+                 <tr>
+                    <td style="color: green;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">65 Pessoas</td>
+                    <td>8.000$</td>
+                 </tr>
+          <tfoot>
+              <tr ><td colspan="3" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #ef196b;">valores sujeito ao alteração</td></tr>
+          </tfoot>
+       </table>
+       <div id="butao"> <button>Fazer-Pedido</button></div>
+       
 </body>
 </html>
