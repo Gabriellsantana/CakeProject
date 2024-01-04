@@ -1,6 +1,7 @@
 body{
     margin: 0%;
 }
+/*-----------------------NAV DE NAVEGAÇÃO TOP-------------------------------------------*/
 .header-navbar{
     /*background-color:#ff69b4;*/  
     background-color: #ffcbbd;
@@ -43,15 +44,16 @@ body{
     background-color: #ef196b;
     color: wheat;
     border-bottom: #ffb6c1 solid;
-
 }
 
+/*-----------------------NAV DE NAVEGAÇÃO TOP-------------------------------------------*/
+
+/*-----------------------SOBRE MIM BANER PRINCIPAL-------------------------------------------*/
 .conteudo-sobremim{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-  
 }
 .conteudo-sobremim div{
     padding: 17px;
@@ -77,11 +79,55 @@ body{
     justify-content: space-between;
     margin: 3rem;
     align-items: center;
-    flex: 1;
     gap: 3rem;
-   
+}
+/*-----------------------SOBRE MIM BANER PRINCIPAL-------------------------------------------*/
+
+/*------------------------------------NOSSOS BOLOS-------------------------------------------*/
+.containerBolos h1{
+      color: #ef196b;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-shadow: #ffb6c1 2px 2px 2px;
+      font-size: 3.5rem;
+}
+.containerBolos article{
+    text-align: center;
+    padding: 3rem;
+  /*  border: solid 3px  #ffcbbd;*/
+      flex: 1;
+}
+article{
+    flex: 1;
 }
 .containerBolos section img{
-    width: 30%;
-    height: 30%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    border: transparent;
 }
+.containerBolos article p{
+    border-top:transparent ;
+    margin-top: 0;
+   margin-bottom: 50px;
+}
+.containerBolos article a {
+    background-color: #ffcbbd;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    color: #ef196b;
+    border-radius: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.containerBolos article h2{
+    letter-spacing: 1px;
+    color: black;
+    background-color: #ffcbbd;
+    padding: 5px;
+    margin-bottom: 0;
+    font-size: 25px;
+    border-radius: 2px 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*------------------------------------NOSSOS BOLOS-------------------------------------------*/
