@@ -81,7 +81,6 @@ body{
     align-items: center;
     gap: 3rem;
 }
-/*-----------------------SOBRE MIM BANER PRINCIPAL-------------------------------------------*/
 
 /*------------------------------------NOSSOS BOLOS-------------------------------------------*/
 .containerBolos h1{
@@ -89,19 +88,18 @@ body{
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       text-shadow: #ffb6c1 2px 2px 2px;
       font-size: 3.5rem;
+      
 }
 .containerBolos article{
     text-align: center;
     padding: 3rem;
   /*  border: solid 3px  #ffcbbd;*/
-      flex: 1;
+      box-sizing: content-box;
 }
-article{
-    flex: 1;
-}
+
 .containerBolos section img{
     width: 100%;
-    height: 100%;
+    height: 310px;
     margin-bottom: 0;
     border: transparent;
 }
@@ -109,6 +107,9 @@ article{
     border-top:transparent ;
     margin-top: 0;
    margin-bottom: 50px;
+   font-family: sans-serif;
+   text-align:left;
+   width:auto;
 }
 .containerBolos article a {
     background-color: #ffcbbd;
