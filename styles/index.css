@@ -5,11 +5,15 @@ body{
 .header-navbar{
     /*background-color:#ff69b4;*/  
     background-color: #ffcbbd;
+    position: sticky;
+    top: 0;
+
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     
 }
 .navbar img{
@@ -23,6 +27,7 @@ body{
     gap: 2rem;
     padding: 2rem;
     list-style: none;
+    
 }
 .navbar a{
       padding: 14px;
@@ -38,6 +43,7 @@ body{
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       width: 90%;
       align-items: center;
+      
       
 }
 .navbar a:hover{
